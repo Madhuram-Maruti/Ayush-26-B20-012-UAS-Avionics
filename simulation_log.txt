@@ -1,0 +1,123 @@
+-----------Search Result-----------
+Test Case 1: Simple Path
+Path Found: YES
+Path:
+  (0, 0)
+  (0, 1)
+  (0, 2)
+  (0, 3)
+  (0, 4)
+  (0, 5)
+  (0, 6)
+  (0, 7)
+  (1, 7)
+  (2, 7)
+  (3, 7)
+  (4, 7)
+  (5, 7)
+  (6, 7)
+  (7, 7)
+Total Path Cost: 14
+Nodes Explored: 57
+Execution Time: 0.000161 seconds
+Visualization saved: testcase_1.png
+
+-----------Search Result-----------
+Test Case 2: Multiple Possible Paths
+Path Found: YES
+Path:
+  (4, 0)
+  (4, 1)
+  (4, 2)
+  (4, 3)
+  (3, 3)
+  (2, 3)
+  (1, 3)
+  (0, 3)
+  (0, 4)
+  (0, 5)
+  (0, 6)
+  (0, 7)
+  (0, 8)
+  (1, 8)
+  (2, 8)
+  (3, 8)
+  (4, 8)
+Total Path Cost: 16
+Nodes Explored: 53
+Execution Time: 0.000143 seconds
+Visualization saved: testcase_2.png
+
+-----------Search Result-----------
+Test Case 3: Narrow Passage
+Path Found: YES
+Path:
+  (0, 0)
+  (0, 1)
+  (0, 2)
+  (1, 2)
+  (2, 2)
+  (3, 2)
+  (4, 2)
+  (5, 2)
+  (5, 3)
+  (5, 4)
+  (5, 5)
+  (5, 6)
+  (5, 7)
+  (6, 7)
+  (7, 7)
+  (8, 7)
+  (9, 7)
+Total Path Cost: 16
+Nodes Explored: 47
+Execution Time: 0.000123 seconds
+Visualization saved: testcase_3.png
+
+-----------Search Result-----------
+Test Case 4: Different Obstacle Arrangement
+Path Found: YES
+Path:
+  (0, 0)
+  (0, 1)
+  (0, 2)
+  (0, 3)
+  (0, 4)
+  (1, 4)
+  (2, 4)
+  (3, 4)
+  (4, 4)
+  (4, 3)
+  (5, 3)
+  (5, 2)
+  (5, 1)
+  (5, 0)
+  (6, 0)
+  (7, 0)
+  (8, 0)
+  (8, 1)
+  (8, 2)
+  (8, 3)
+  (8, 4)
+  (8, 5)
+  (7, 5)
+  (6, 5)
+  (6, 6)
+  (6, 7)
+  (6, 8)
+  (6, 9)
+  (7, 9)
+  (8, 9)
+  (9, 9)
+Total Path Cost: 30
+Nodes Explored: 61
+Execution Time: 0.000148 seconds
+Visualization saved: testcase_4.png
+
+-----------Search Result-----------
+Test Case 5: No Valid Path
+Path Found: NO
+No valid path exists between Start and Goal.
+Nodes Explored: 24
+Execution Time: 0.000069 seconds
+Visualization saved: testcase_5.png
