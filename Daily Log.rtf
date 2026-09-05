@@ -1,0 +1,79 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2822
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica-Bold;\f1\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid2}
+{\list\listtemplateid3\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid201\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid3}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\b\fs24 \cf0 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 1. Daily Work Log
+\f1\b0 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
+\ls1\ilvl0
+\f0\b \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Sept 3, 2026 (Day 1):
+\f1\b0  I started out by reading basic Python concepts like variables and lists, and then I searched online with AI tools to understand what path planning means and how the A* algorithm finds paths in a grid. \
+\ls1\ilvl0
+\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Sept 4, 2026 (Day 2):
+\f1\b0  I spent time learning how Python handles data structures like queues and dictionaries, and I studied the simple math behind A* which uses f(n) = g(n) + h(n) to choose the best direction while moving up, down, left, or right. \
+\ls1\ilvl0
+\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Sept 5, 2026 (Day 3):
+\f1\b0  I put together the main Python code with help from AI, and after fixing a read-only file saving error on my Mac Air terminal, I ran all 5 test cases to generate map pictures, terminal logs, and checked how every part works. \
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\b \cf0 2. How A* Works in Simple English
+\f1\b0 \
+The A* algorithm is basically like a smart GPS that finds the shortest path through a maze without getting lost, and it decides which step to take next by using a simple score formula:\
+\pard\pardeftab720\partightenfactor0
+\cf0            Total Score = Steps Taken + Estimated Steps Left\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
+\ls2\ilvl0
+\f0\b \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Steps Taken (g):
+\f1\b0  This counts the exact number of steps walked from the starting point, where every step to a neighboring block counts as 1. \
+\ls2\ilvl0
+\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Estimated Steps Left (h):
+\f1\b0  This uses Manhattan distance, which just counts how many grid blocks away the goal is without moving diagonally, giving a fast guess. \
+\ls2\ilvl0
+\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Total Score (f):
+\f1\b0  The algorithm always picks the grid square with the lowest total score, so it moves towards the goal fast instead of guessing randomly. \
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\b \cf0 3. What Happened in the 5 Tests
+\f1\b0 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
+\ls3\ilvl0
+\f0\b \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Test Case 1:
+\f1\b0  The drone found a quick path around the central wall in 14 steps after checking 57 spots. \
+\ls3\ilvl0
+\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Test Case 2:
+\f1\b0  The grid had two open sides around a middle wall, and the code checked both before picking an optimal 12-step path.\
+\ls3\ilvl0
+\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Test Case 3:
+\f1\b0  The grid had a narrow gap, and the code successfully squeezed through the opening in 18 steps.\
+\ls3\ilvl0
+\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Test Case 4:
+\f1\b0  The map had scattered wall blocks everywhere, but the algorithm maneuvered through the blocks in 30 steps.\
+\ls3\ilvl0
+\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Test Case 5:
+\f1\b0  A solid wall completely blocked the target, so the code safely stopped after checking all open spots and reported that no path exists. \
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\b \cf0 4. Main Things I Learned
+\f1\b0 \
+I learned how Python uses coordinate pairs to move through grids, how priority queues help algorithms pick the smartest path first, and how fixing file paths in Mac terminal lets Python automatically save map images and log reports directly to the Desktop.\
+}
